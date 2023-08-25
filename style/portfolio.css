@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    font-family:font-family: 'Open Sans', sans-serif; ;
+}
+/* header and navigation style */
+.nav-titel{
+    font-weight: 800;
+    font-size: 45px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav li {
+    list-style: none;
+    margin: 50px;
+}
+.text-primary{
+    color: blue;
+}
+.btn-primary{
+    color: wheat;
+    background-color: blue;
+    padding: 5px;
+    border: 0;
+    font-size: 20px;
+    border-radius: 5px;
+}
+/* banner style  */
+.banner{
+    display: flex;
+    align-items: center;
+    margin: 0 200px;
+}
+.banner-title{
+font-weight: 700;
+font-size: 85px;
+margin-bottom: 20px;
+}
+.banner-sub-title{
+    font-weight: 600;
+    font-size: 45px;
+}
+.banner-description{
+    color: blue;
+    font-size: 18px;
+    margin-bottom: 30px;
+
+}
+.header{
+    background-color: #FFF8;
+    background-image:url('../images/header_bg.png'),url('../images/developer.png') ;
+    background-repeat: no-repeat;
+    background-position:bottom right,left;
+}
+/* main section */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* about section style */
+.about{
+    
+    background: #f3f6ff;
+    border-radius: 10px;
+    padding: 130px 150px;
+}
+.section-title{
+text-align: center;
+margin-bottom: 30px;
+font-size: 35px;
+}
+.section-description{
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.info-description{
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
+}
+/* what i do */
+section{
+margin-top: 130px;
+
+}
+.skill{
+    background:#FFFFFF;
+    box-shadow: 0 6px 50% rgba(0,0,0,0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill-title{
+    font-weight: 700;
+    font-size: 20px;
+}
+.skill-description{
+
+}
+.Resume{
+    margin-top: 130px;   
+}
+
